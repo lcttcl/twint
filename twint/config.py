@@ -51,9 +51,9 @@ class Config:
     Pandas_clean = True
     Lowercase = True
     Pandas_au = True
-    Proxy_host = ""
-    Proxy_port = 0
-    Proxy_type = None
+    Proxy_host = "127.0.0.1"
+    Proxy_port = 1080
+    Proxy_type = "socks5"
     Tor_control_port = 9051
     Tor_control_password = None
     Retweets = False
@@ -73,4 +73,4 @@ class Config:
     Filter_retweets = False
     Translate = False
     TranslateSrc = "en"
-    TranslateDest = "en"    
+    TranslateDest = "en"
